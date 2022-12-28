@@ -1,0 +1,48 @@
+.header {
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    padding-inline: 5rem;
+    gap: 15rem;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    margin-right: 10rem;
+    height: 4rem;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: var(--ff-text);
+  
+  }
+  
+  .nav-link {
+    color: var(--cc-grey);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    color: black;
+  }
+  
+  .nav-icon {
+    filter: var(--svg-filter);
+    height: 1rem;
+    cursor: pointer;
+  }
+  
+  .nav-icon:hover {
+    filter: var(--svg-hover);
+  }
